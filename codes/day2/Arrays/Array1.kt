@@ -4,8 +4,8 @@ fun main(args: Array<String>) {
 
     var arr2:Array<String> = arrayOf("kotlin","java","scala")
     println(arr2)
-
-    var square=Array(5) {i->i*i}
-    println(square)
+    
+    var square = Array(5) { i -> i * i }
+    println(square.joinToString(" "))
 
 }
