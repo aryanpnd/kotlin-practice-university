@@ -1,4 +1,4 @@
-# Kotlin practice university
+# Kotlin Practice University
 
 Welcome to my repository of daily Kotlin exercises and code snippets taught by the university! This repository is a collection of all the Kotlin programs, assignments, and projects that I work on as part of my university coursework. The goal is to practice and reinforce the concepts taught in class, and to track my progress as I learn Kotlin.
 
@@ -21,6 +21,9 @@ The repository is organized by week and topic. Each folder contains:
 - **Assignments**: More complex problems or projects that apply the concepts learned.
 - **Notes**: Markdown files (`.md`) summarizing key concepts or explanations for the day's lessons.
 
+## 🛠️ Pre-Push Hook
+
+This repository is configured with a Git `pre-push` hook that automatically deletes all `.jar` files before pushing the code to the remote repository. This helps in keeping the repository clean by ensuring that compiled files are not accidentally committed. The hook is located in the `.git/hooks/` directory and is executed each time you run `git push`.
 
 ## 🚀 Getting Started
 
@@ -32,7 +35,7 @@ To run any of the Kotlin code in this repository:
    cd kotlin-practice-university
    ```
 
-2. **Open the code in your preferred IDE (e.g., IntelliJ IDEA, Android Studio)**
+2. **Open the code in your preferred IDE (e.g., IntelliJ IDEA, Android Studio).**
 
 3. **Run the `.kt` files** to see the output.
 
@@ -43,3 +46,7 @@ This repository is updated daily with new exercises and code snippets, so be sur
 ## 📝 License
 
 This repository is licensed under the MIT License. Feel free to use the code for learning purposes, and give credit where it's due.
+
+---
+
+This README now includes the information about the `pre-push` hook that deletes `.jar` files, ensuring your repository remains clean and free of compiled files.
