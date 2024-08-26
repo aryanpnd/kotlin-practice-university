@@ -5,5 +5,5 @@ fun main(args: Array<String>) {
     println("value of a  after -a : ${-a}")
     println("value of a  after ++a : ${++a}")
     println("value of a  after --a : ${--a}")
-    println("value of a  after !a : ${!a}")
+    // println("value of a  after !a : ${!a}")
 }
