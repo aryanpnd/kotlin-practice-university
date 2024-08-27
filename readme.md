@@ -47,6 +47,3 @@ This repository is updated daily with new exercises and code snippets, so be sur
 
 This repository is licensed under the MIT License. Feel free to use the code for learning purposes, and give credit where it's due.
 
----
-
-This README now includes the information about the `pre-push` hook that deletes `.jar` files, ensuring your repository remains clean and free of compiled files.
